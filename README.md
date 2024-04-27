@@ -1,5 +1,13 @@
 ![](https://github.com/xyflow/web/blob/main/assets/codesandbox-header-ts.png?raw=true)
 
+# editing 
+1. Run `yarn install`
+2. Run `yarn dev`
+3. Make changes to the code
+4. The browser will automatically reload with your changes
+5. Use this to make a pull request to the main repo: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request
+6. Ask GPT-4 or Claude.ai to help you with the pull request if you need help.
+
 # React Flow starter (Vite + TS)
 
 We've put together this template to serve as a starting point for folks
