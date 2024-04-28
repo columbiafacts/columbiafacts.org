@@ -17,6 +17,7 @@ import ReactFlow, {
   Connection,
 } from 'reactflow';
 
+import InfoButton from './InfoButton';
 
 import SimpleNode from './SimpleNode';
 import GroupNode from './GroupNode';
@@ -208,9 +209,14 @@ function DynamicGrouping() {
 
   return (
     <div className={styles.wrapper}>
-      <a href="https://adamtooze.substack.com/p/chartbook-279-columbia-universitys">more info</a>
-      <br></br>
-      <a href="https://github.com/columbiafacts/columbiafacts.org/">how 2 help</a>
+      <InfoButton
+        url="https://adamtooze.substack.com/p/chartbook-279-columbia-universitys"
+        label="more info"
+      />
+      <InfoButton
+        url="https://github.com/columbiafacts/columbiafacts.org/"
+        label="how 2 help"
+      />
       <Sidebar />
       <div className={styles.rfWrapper}>
         <ReactFlow
@@ -231,7 +237,7 @@ function DynamicGrouping() {
           defaultEdgeOptions={defaultEdgeOptions}
         >
           <Controls />
-          <MiniMap />
+          {/* <MiniMap /> */}
           <Background color="#bbb" gap={50} variant={BackgroundVariant.Dots} />
           <DownloadButton />
           <Panel position="bottom-center">
