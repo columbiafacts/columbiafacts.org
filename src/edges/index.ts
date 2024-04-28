@@ -1,6 +1,6 @@
 import type { Edge, EdgeTypes } from "reactflow";
-import CustomEdge from "./CustomEdge";
-import CustomEdgeStartEnd from "./CustomEdgeStartEnd";
+import CustomEdge from "../CustomEdge";
+import CustomEdgeStartEnd from "../CustomEdgeStartEnd";
 
 export const edgeTypes: EdgeTypes = {
   custom: CustomEdge,
