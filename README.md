@@ -1,4 +1,4 @@
-![](https://github.com/xyflow/web/blob/main/assets/codesandbox-header-ts.png?raw=true)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fcolumbiafacts.org&count_bg=%2379C83D&title_bg=%2373FF00&icon=badgr.svg&icon_color=%23F80000&title=how+many+ppl+visit+and+saw+the+facts&edge_flat=false)](https://hits.seeyoufarm.com)
 
 # Context
 This is a participatory project where you can contribute to the development of the next generation of facts. The goal is to create a platform where people can easily share and discover facts about Columbia. The platform will be powered React Flow, by GPT-4 and Claude.ai, two of the most advanced AI models in the world.
