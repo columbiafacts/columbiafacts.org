@@ -53,7 +53,6 @@ export const initialNodes = [
     data: { label: 'Student Protestors' },
     position: { x: 0 * grid_width + 1 * grid_gap, y: 0 * grid_height + 1 * grid_gap },
     className: 'light',
-    targetPosition: 'top',
     parentNode: 'movement',
   },
   {
@@ -166,7 +165,7 @@ export const initialNodes = [
     data: { label: 'NYPD' },
     position: { x: 4 * grid_width + 2 * grid_gap, y: 5 * grid_height + 2 * grid_gap },
   },
-] satisfies Node[];
+] satisfies Node<any, string>[];
 
 export const nodeTypes = {
   node: SimpleNode,

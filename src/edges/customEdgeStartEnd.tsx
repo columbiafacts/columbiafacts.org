@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { EdgeProps, getBezierPath, EdgeText } from 'reactflow';
 
 type CustomEdgeStartEndData = {
@@ -30,11 +30,11 @@ const CustomEdgeStartEnd: FC<EdgeProps<CustomEdgeStartEndData>> = ({
   return (
     <>
       <path id={id} className="react-flow__edge-path" d={edgePath} />
-      {data.startLabel && (
+      {data?.startLabel && (
         <EdgeText
           x={sourceX}
           y={sourceY}
-          label={data.startLabel}
+          label={data?.startLabel}
           labelStyle={{
             fill: '#ff5050',
             fontWeight: 700,
@@ -47,15 +47,15 @@ const CustomEdgeStartEnd: FC<EdgeProps<CustomEdgeStartEndData>> = ({
           }}
           labelBgPadding={[8, 4]}
           labelBgBorderRadius={4}
-          onClick={data.onStartLabelClick}
+          onClick={data?.onStartLabelClick}
           className="nodrag nopan"
         />
       )}
-      {data.endLabel && (
+      {data?.endLabel && (
         <EdgeText
           x={targetX}
           y={targetY}
-          label={data.endLabel}
+          label={data?.endLabel}
           labelStyle={{
             fill: '#ff5050',
             fontWeight: 700,
@@ -68,7 +68,7 @@ const CustomEdgeStartEnd: FC<EdgeProps<CustomEdgeStartEndData>> = ({
           }}
           labelBgPadding={[8, 4]}
           labelBgBorderRadius={4}
-          onClick={data.onEndLabelClick}
+          onClick={data?.onEndLabelClick}
           className="nodrag nopan"
         />
       )}

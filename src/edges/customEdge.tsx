@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { EdgeProps, getBezierPath, EdgeText } from 'reactflow';
 
 type CustomEdgeData = {
@@ -31,7 +31,7 @@ const CustomEdge: FC<EdgeProps<CustomEdgeData>> = ({
       <EdgeText
         x={labelX}
         y={labelY}
-        label={data.label}
+        label={data?.label}
         labelStyle={{
           fill: '#ffcc00',
           fontWeight: 700,
@@ -44,7 +44,7 @@ const CustomEdge: FC<EdgeProps<CustomEdgeData>> = ({
         }}
         labelBgPadding={[8, 4]}
         labelBgBorderRadius={4}
-        onClick={data.onClick}
+        onClick={data?.onClick}
         className="nodrag nopan"
       />
     </>

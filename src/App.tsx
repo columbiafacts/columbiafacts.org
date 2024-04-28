@@ -58,8 +58,8 @@ const defaultEdgeOptions = {
 };
 
 function DynamicGrouping() {
-  const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes);
-  const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges);
+  const [nodes, setNodes, onNodesChange] = useNodesState<Node[]>(initialNodes);
+  const [edges, setEdges, onEdgesChange] = useEdgesState<Edge[]>(initialEdges);
   const { undo, redo, canUndo, canRedo, takeSnapshot } = useUndoRedo();
 
   const onConnect = useCallback(
