@@ -256,6 +256,7 @@ function DynamicGrouping() {
               >
                 Redo <span className={styles.buttonIcon}>⤵️</span>
               </button>
+              <a href="https://github.com/columbiafacts/columbiafacts.org/"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fcolumbiafacts.org&count_bg=%2379C83D&title_bg=%2373FF00&icon=badgr.svg&icon_color=%23F80000&title=how+many+ppl+visit+and+saw+the+facts&edge_flat=false"/></a>
             </div>
           </Panel>
         </ReactFlow>
