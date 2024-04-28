@@ -11,7 +11,7 @@ If you would like to make a similar platform for your school, you can fork this 
 Time commitment: 3 hour for 1 human with a background in front-end development, starting from an existing power map such as at https://adamtooze.substack.com/p/chartbook-279-columbia-universitys (backup: https://archive.is/brbLQ).
 
 Prerequisite to making one for your school or institution: 
-* hardening of your devices, operations and information security (https://brianlovin.com/security)
+* hardening of your devices, operations and information security (https://brianlovin.com/security and https://gist.github.com/b6461bd246843f70ac1328401405b2b4e72599d/cd2c01d3ca2a77f7737d224fdecb111c and https://github.com/zettuh/words/blob/master/the_spectre_of_opsec.txt and https://github.com/lattera/articles/blob/master/opsec/2018-02-23_good-opsec/article.md and similar)
 * only make edits via an open source VPN
 * only use Signal with a Google Voice number to communicate
 * do not use your name, only use the Corporation Service Company representation and Delaware address everywhere
