@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --debug --base ./",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "generate-js": "npx tsc --jsx preserve -t es2020 --outDir srcJs --noEmit false && npx prettier srcJs --write && npx shx cp src/*.css srcJs"
