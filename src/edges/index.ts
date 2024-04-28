@@ -3,7 +3,7 @@ import CustomEdge from "./CustomEdge";
 import CustomEdgeStartEnd from "./CustomEdgeStartEnd";
 
 export const edgeTypes: EdgeTypes = {
-  custom: CustomEdge,
+  'custom': CustomEdge,
   'start-end': CustomEdgeStartEnd,
 };
 
