@@ -17,7 +17,7 @@ import ReactFlow, {
   Connection,
 } from 'reactflow';
 
-import InfoButton from './InfoButton';
+import InfoButton from './InfoButton.tsx'
 
 import SimpleNode from './SimpleNode';
 import GroupNode from './GroupNode';
