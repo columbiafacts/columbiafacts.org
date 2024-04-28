@@ -8,6 +8,10 @@ const grid_width = 100;
 const grid_height = 100;
 const grid_gap = 5;
 
+interface NodeData {
+  label: string;
+}
+
 // first groups of nodes then their nodes then nodes
 export const initialNodes = [
   // 👯‍♀️ groups
@@ -165,7 +169,7 @@ export const initialNodes = [
     data: { label: 'NYPD' },
     position: { x: 4 * grid_width + 2 * grid_gap, y: 5 * grid_height + 2 * grid_gap },
   },
-] satisfies Node<any, string>[];
+] satisfies Node<NodeData, string>[];
 
 export const nodeTypes = {
   node: SimpleNode,
